@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>book</groupId>
+		<artifactId>serverRest</artifactId>
+		<version>1</version>
+	</parent>
+
+	<artifactId>rest-ear</artifactId>
+	<packaging>ear</packaging>
+
+	<name>ear assembly</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>book</groupId>
+			<artifactId>rest-ejbs</artifactId>
+			<type>ejb</type>
+		</dependency>
+
+		<dependency>
+			<groupId>book</groupId>
+			<artifactId>rest-jpa</artifactId>
+			<type>jar</type>
+		</dependency>
+
+		<dependency>
+			<groupId>book</groupId>
+			<artifactId>rest</artifactId>
+			<type>war</type>
+		</dependency>
+
+		<dependency>
+			<groupId>book</groupId>
+			<artifactId>webapp</artifactId>
+			<type>war</type>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.wildfly.plugins</groupId>
+				<artifactId>wildfly-maven-plugin</artifactId>
+				<version>5.1.5.Final</version>
+				<configuration>
+					<port>10090</port>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,15 @@
+artifact\ResearchersWS.class
+beans\ImanagePublications.class
+artifact\GetResearchersByInterestResponse.class
+artifact\Researcher.class
+client\App.class
+artifact\GetResearchersByInterest.class
+artifact\GetResearchersByNameResponse.class
+artifact\package-info.class
+artifact\ObjectFactory.class
+artifact\ListResearchersResponse.class
+client\App$1.class
+artifact\GetResearchersByName.class
+artifact\ResearchersWSService.class
+data\Publication.class
+artifact\ListResearchers.class

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://ws/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="ResearchersWSService" targetNamespace="http://ws/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws/" elementFormDefault="unqualified" targetNamespace="http://ws/" version="1.0">
+
+  <xs:element name="getResearchersByInterest" type="tns:getResearchersByInterest"/>
+
+  <xs:element name="getResearchersByInterestResponse" type="tns:getResearchersByInterestResponse"/>
+
+  <xs:element name="getResearchersByName" type="tns:getResearchersByName"/>
+
+  <xs:element name="getResearchersByNameResponse" type="tns:getResearchersByNameResponse"/>
+
+  <xs:element name="listResearchers" type="tns:listResearchers"/>
+
+  <xs:element name="listResearchersResponse" type="tns:listResearchersResponse"/>
+
+  <xs:complexType name="getResearchersByName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getResearchersByNameResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="researcher" type="tns:researcher"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="researcher">
+    <xs:sequence>
+      <xs:element name="citationsCountYear" type="xs:int"/>
+      <xs:element minOccurs="0" name="hostInstitution" type="xs:string"/>
+      <xs:element name="id" type="xs:int"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="interests" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="publications" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getResearchersByInterest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="interest" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getResearchersByInterestResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="researcher" type="tns:researcher"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="listResearchers">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="listResearchersResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="researcher" type="tns:researcher"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="listResearchersResponse">
+    <wsdl:part element="tns:listResearchersResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listResearchers">
+    <wsdl:part element="tns:listResearchers" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getResearchersByName">
+    <wsdl:part element="tns:getResearchersByName" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getResearchersByNameResponse">
+    <wsdl:part element="tns:getResearchersByNameResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getResearchersByInterest">
+    <wsdl:part element="tns:getResearchersByInterest" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getResearchersByInterestResponse">
+    <wsdl:part element="tns:getResearchersByInterestResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ResearchersWS">
+    <wsdl:operation name="getResearchersByName">
+      <wsdl:input message="tns:getResearchersByName" name="getResearchersByName">
+    </wsdl:input>
+      <wsdl:output message="tns:getResearchersByNameResponse" name="getResearchersByNameResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getResearchersByInterest">
+      <wsdl:input message="tns:getResearchersByInterest" name="getResearchersByInterest">
+    </wsdl:input>
+      <wsdl:output message="tns:getResearchersByInterestResponse" name="getResearchersByInterestResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listResearchers">
+      <wsdl:input message="tns:listResearchers" name="listResearchers">
+    </wsdl:input>
+      <wsdl:output message="tns:listResearchersResponse" name="listResearchersResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ResearchersWSServiceSoapBinding" type="tns:ResearchersWS">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getResearchersByName">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getResearchersByName">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getResearchersByNameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getResearchersByInterest">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getResearchersByInterest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getResearchersByInterestResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listResearchers">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="listResearchers">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="listResearchersResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ResearchersWSService">
+    <wsdl:port binding="tns:ResearchersWSServiceSoapBinding" name="ResearchersWSPort">
+      <soap:address location="http://localhost:8180/soap/ResearchersWS"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

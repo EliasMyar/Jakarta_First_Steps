@@ -1,0 +1,872 @@
+2026-11-19 15:26:47,302 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final
+2026-11-19 15:26:53,760 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.6.Final
+2026-11-19 15:26:53,774 INFO  [org.jboss.threads] (main) JBoss Threads version 3.9.1
+2026-11-19 15:26:53,952 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0049: WildFly 38.0.0.Final (WildFly Core 30.0.0.Final) starting
+2026-11-19 15:26:53,955 DEBUG [org.jboss.as.config] (MSC service thread 1-4) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\jboss-modules.jar
+	java.class.version = 71.0
+	java.home = C:\Program Files\Java\latest\jdk-27
+	java.io.tmpdir = C:\Users\ELIASM~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\latest\jdk-27\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\latest\jdk-27\bin;D:\Maven 3.X\apache-maven-3.10.0\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Files\Git\cmd;D:\MPLAB_compiler\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\SQL\bin;D:\python_3.13.12\Scripts\;D:\python_3.13.12\;D:\python_3.10.11\Scripts\;D:\python_3.10.11\;C:\Users\Elias Myarkovskiy\AppData\Local\Programs\Python\Launcher\;C:\Users\Elias Myarkovskiy\AppData\Local\Microsoft\WindowsApps;D:\VScode\Microsoft VS Code\bin;C:\Users\Elias Myarkovskiy\AppData\Local\Python\bin;C:\Users\Elias Myarkovskiy\AppData\Roaming\npm;D:\VScode\Microsoft VS Code\bin\copilot-shim;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 27+35-2325
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 27
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 27
+	java.version.date = 2026-09-15
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 27
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 27+35-2325
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final
+	jboss.host.name = eliaspc
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = eliaspc
+	jboss.qualified.host.name = eliaspc
+	jboss.server.base.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone
+	jboss.server.config.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data
+	jboss.server.log.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\log
+	jboss.server.name = eliaspc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\tmp
+	jboss.socket.binding.port-offset = 100
+	jboss.threads.eqe.statistics = true
+	jdk.debug = release
+	jdk.serialFilter = maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000
+	line.separator = 
+
+	logging.configuration = file:D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration/logging.properties
+	module.path = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = cp437
+	stdin.encoding = cp437
+	stdout.encoding = cp437
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\latest\jdk-27\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\jboss-modules.jar -mp D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final --server-config=standalone-full.xml -Djboss.socket.binding.port-offset=100
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final
+	user.home = C:\Users\Elias Myarkovskiy
+	user.language = en
+	user.name = Elias Myarkovskiy
+	user.script = 
+	user.timezone = Europe/Lisbon
+	user.variant = 
+2026-11-19 15:26:53,959 DEBUG [org.jboss.as.config] (MSC service thread 1-4) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djdk.serialFilter=maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000 --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration/logging.properties 
+2026-11-19 15:27:01,027 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.7.0.Final
+2026-11-19 15:27:03,568 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2026-11-19 15:27:03,589 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.16.Final
+2026-11-19 15:27:03,597 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.16.Final
+2026-11-19 15:27:03,662 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 56) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2026-11-19 15:27:03,667 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 57) WFLYHEALTH0001: Activating Base Health Subsystem
+2026-11-19 15:27:03,680 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0001: Activating Infinispan subsystem.
+2026-11-19 15:27:03,681 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 61) WFLYRS0016: RESTEasy version 6.2.14.Final
+2026-11-19 15:27:03,683 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2026-11-19 15:27:03,695 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.14.Final)
+2026-11-19 15:27:03,694 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 58) WFLYIIOP0001: Activating IIOP Subsystem
+2026-11-19 15:27:03,697 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2026-11-19 15:27:03,701 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 71) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2026-11-19 15:27:03,701 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 70) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2026-11-19 15:27:03,703 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 69) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2026-11-19 15:27:03,704 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 72) WFLYNAM0001: Activating Naming Subsystem
+2026-11-19 15:27:03,720 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "ear.ear" (runtime-name: "ear.ear")
+2026-11-19 15:27:03,733 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 81) WFLYWS0002: Activating WebServices Extension
+2026-11-19 15:27:03,746 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-19 15:27:03,750 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 66) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2026-11-19 15:27:03,771 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 79) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2026-11-19 15:27:03,786 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 60) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2026-11-19 15:27:03,786 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2026-11-19 15:27:03,786 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2026-11-19 15:27:03,836 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.7)
+2026-11-19 15:27:03,839 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2026-11-19 15:27:03,854 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY00023: KeyStore file 'D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2026-11-19 15:27:03,878 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.31.Final
+2026-11-19 15:27:03,917 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2026-11-19 15:27:03,923 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 48 (per class), which is derived from thread worker pool sizing.
+2026-11-19 15:27:03,923 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2026-11-19 15:27:03,924 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.3.20.Final starting
+2026-11-19 15:27:04,018 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0014: Creating file handler for path 'D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2026-11-19 15:27:04,031 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2026-11-19 15:27:04,033 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2026-11-19 15:27:04,034 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2026-11-19 15:27:04,064 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8180
+2026-11-19 15:27:04,132 INFO  [org.jboss.as.ejb3] (MSC service thread 1-9) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2026-11-19 15:27:04,194 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8543
+2026-11-19 15:27:04,200 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/postgresDS]
+2026-11-19 15:27:04,200 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-9) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2026-11-19 15:27:04,269 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-2) WFLYIIOP0009: CORBA ORB Service started
+2026-11-19 15:27:09,660 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-9) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2026-11-19 15:27:09,788 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221000: Primary message broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\activemq\paging)
+2026-11-19 15:27:09,841 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221013: Using NIO Journal
+2026-11-19 15:27:09,914 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\deployments
+2026-11-19 15:27:10,024 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2026-11-19 15:27:10,026 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2026-11-19 15:27:10,027 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2026-11-19 15:27:10,027 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2026-11-19 15:27:10,097 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221034: Waiting indefinitely to obtain primary lock
+2026-11-19 15:27:10,097 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221035: Primary Server Obtained primary lock
+2026-11-19 15:27:10,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-19 15:27:10,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-19 15:27:10,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-19 15:27:10,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "ejbs.jar")
+2026-11-19 15:27:10,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0207: Starting subdeployment (runtime-name: "soap.war")
+2026-11-19 15:27:10,664 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2026-11-19 15:27:10,665 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2026-11-19 15:27:10,670 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2026-11-19 15:27:10,670 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2026-11-19 15:27:10,670 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2026-11-19 15:27:10,670 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-9) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2026-11-19 15:27:11,226 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221007: Server is now active
+2026-11-19 15:27:11,226 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.42.0 [default, nodeID=b4b5f657-d55b-11f1-a0e1-0a002700000a] 
+2026-11-19 15:27:11,242 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 83) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2026-11-19 15:27:11,252 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 84) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2026-11-19 15:27:11,299 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0007: Registered connection factory java:/JmsXA
+2026-11-19 15:27:11,311 INFO  [org.apache.activemq.artemis.ra.ActiveMQRALogger] (MSC service thread 1-4) AMQ151007: Resource adaptor started
+2026-11-19 15:27:11,312 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-4) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2026-11-19 15:27:11,314 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: Bound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2026-11-19 15:27:11,314 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-9) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2026-11-19 15:27:11,655 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 7.3.5.Final (Apache CXF 4.0.9.jbossorg-1) 
+2026-11-19 15:27:11,866 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for project2
+2026-11-19 15:27:11,866 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for project2
+2026-11-19 15:27:14,387 INFO  [org.jipijapa] (MSC service thread 1-9) JIPIORMV6020260: Second level cache enabled for ear.ear#project2
+2026-11-19 15:27:14,387 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 15:27:14,497 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-19 15:27:14,497 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ear.ear
+2026-11-19 15:27:15,169 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000556: Starting user marshaller 'org.wildfly.clustering.cache.infinispan.marshalling.UserMarshaller'
+2026-11-19 15:27:15,847 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 85) Started hibernate cache container
+2026-11-19 15:27:15,854 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ear.ear#project2'
+2026-11-19 15:27:15,854 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 15:27:15,879 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-9) HV000001: Hibernate Validator 8.0.3.Final
+2026-11-19 15:27:15,885 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 85) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-19 15:27:15,885 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 86) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-19 15:27:15,993 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 85) HHH000412: Hibernate ORM core version 6.6.31.Final
+2026-11-19 15:27:16,085 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 86) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-19 15:27:16,085 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 85) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-19 15:27:16,226 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment soap.war
+2026-11-19 15:27:16,230 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-19 15:27:16,243 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-19 15:27:16,243 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ejbs.jar
+2026-11-19 15:27:16,250 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ManageResearchers' in deployment unit 'subdeployment "ejbs.jar" of deployment "ear.ear"' are as follows:
+
+	java:global/ear/ejbs/ManageResearchers!beans.IManageResearchers
+	java:app/ejbs/ManageResearchers!beans.IManageResearchers
+	java:module/ManageResearchers!beans.IManageResearchers
+	java:jboss/exported/ear/ejbs/ManageResearchers!beans.IManageResearchers
+	ejb:ear/ejbs/ManageResearchers!beans.IManageResearchers
+	java:global/ear/ejbs/ManageResearchers
+	java:app/ejbs/ManageResearchers
+	java:module/ManageResearchers
+
+2026-11-19 15:27:16,250 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-19 15:27:16,303 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-19 15:27:16,343 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for ear.ear#project2
+2026-11-19 15:27:16,372 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 15:27:16,401 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 5.1.6 (Final)
+2026-11-19 15:27:16,552 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-8) JBWS024061: Adding service endpoint metadata: id=ws.ResearchersWS
+ address=http://localhost:8180/soap/ResearchersWS
+ implementor=ws.ResearchersWS
+ serviceName={http://ws/}ResearchersWSService
+ portName={http://ws/}ResearchersWSPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2026-11-19 15:27:16,840 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 86) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@7df66ea5']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19 15:27:16,840 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 85) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@7df66ea5']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19 15:27:16,847 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 85) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-19 15:27:16,848 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 86) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-19 15:27:16,944 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 85) Envers integration enabled? : true
+2026-11-19 15:27:16,944 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 86) Envers integration enabled? : true
+2026-11-19 15:27:17,238 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ear.ear#project2'
+2026-11-19 15:27:17,238 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 15:27:17,374 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-8) Creating Service {http://ws/}ResearchersWSService from class ws.ResearchersWS
+2026-11-19 15:27:17,781 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-8) Setting the server's publish address to be http://localhost:8180/soap/ResearchersWS
+2026-11-19 15:27:17,917 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-8) JBWS024074: WSDL published to: file:/D:/UClibrary/Mestrado/2ANO/1semestre/IS/pratica2/wildfly-38.0.0.Final/standalone/data/wsdl/ear.ear/soap.war/ResearchersWSService.wsdl
+2026-11-19 15:27:17,963 INFO  [org.jboss.as.webservices] (MSC service thread 1-7) WFLYWS0003: Starting service jboss.ws.endpoint."ear.ear"."soap.war"."ws.ResearchersWS"
+2026-11-19 15:27:19,668 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-19 15:27:19,668 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 104) WFLYUT0021: Registered web context: '/soap' for server 'default-server'
+2026-11-19 15:27:20,014 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 116) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-19 15:27:20,690 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 116) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-19 15:27:20,935 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "rest-ear.ear" (runtime-name : "rest-ear.ear")
+2026-11-19 15:27:20,936 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "ear.ear" (runtime-name : "ear.ear")
+2026-11-19 15:27:21,010 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2026-11-19 15:27:21,018 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:10090/management
+2026-11-19 15:27:21,019 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:10090
+2026-11-19 15:27:21,023 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly 38.0.0.Final (WildFly Core 30.0.0.Final) started in 43949ms - Started 1166 of 1354 services (369 services are lazy, passive or on-demand) - Server configuration file in use: standalone-full.xml - Minimum feature stability level: community
+2026-11-19 15:27:33,463 INFO  [org.jboss.ejb.client] (default task-2) JBoss EJB Client version 5.0.8.Final
+2026-11-19 15:27:34,153 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id order by r1_0.name
+2026-11-19 15:28:11,896 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id where r1_0.name=? order by r1_0.name
+2026-11-19 16:05:29,006 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-2) RESTEASY002142: Multiple resource methods match request "GET /myservice/getPubByJournal". Selecting one. Matching methods: [public java.util.List service.PublicaitonsWS.getByJournal_Reseacher(java.lang.String,java.lang.String), public java.util.List service.PublicaitonsWS.getByJournal(java.lang.String)]
+2026-11-19 16:05:29,049 ERROR [org.jboss.as.ejb3.invocation] (default task-2) WFLYEJB0034: Jakarta Enterprise Beans Invocation failed on component ManagePublications for method public abstract java.util.List beans.ImanagePublications.getPublicationByJounal_Researcher(java.lang.String,java.lang.String): jakarta.ejb.EJBException: java.lang.IllegalArgumentException: org.hibernate.query.sqm.UnknownPathException: Could not resolve attribute 'researcher' of 'data.Publication' [select distinct p from Publication p left join fetch p.researchers where p.journal = :journal and p.researcher = :name order by p.publicationDate]
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:251)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:373)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:143)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.core@5.1.6.Final//org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:78)
+	at org.jboss.as.weld.common@38.0.0.Final//org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:72)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:24)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:30)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.security.IdentityOutflowInterceptor.processInvocation(IdentityOutflowInterceptor.java:56)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.security.SecurityDomainInterceptor.processInvocation(SecurityDomainInterceptor.java:27)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:27)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:47)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.deployment.processors.EjbSuspendInterceptor.processInvocation(EjbSuspendInterceptor.java:28)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:50)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:33)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:633)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:181)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.remote.LocalEjbReceiver.processInvocation(LocalEjbReceiver.java:242)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:499)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.protocol.remote.RemotingEJBClientInterceptor.handleInvocation(RemotingEJBClientInterceptor.java:52)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.TransactionPostDiscoveryInterceptor.handleInvocation(TransactionPostDiscoveryInterceptor.java:82)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.DiscoveryEJBClientInterceptor.handleInvocation(DiscoveryEJBClientInterceptor.java:116)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.NamingEJBClientInterceptor.handleInvocation(NamingEJBClientInterceptor.java:69)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.AuthenticationContextEJBClientInterceptor.lambda$handleInvocation$0(AuthenticationContextEJBClientInterceptor.java:45)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.AuthenticationContextEJBClientInterceptor.call(AuthenticationContextEJBClientInterceptor.java:59)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.AuthenticationContextEJBClientInterceptor.handleInvocation(AuthenticationContextEJBClientInterceptor.java:44)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.security.IdentityEJBClientInterceptor.lambda$handleInvocation$0(IdentityEJBClientInterceptor.java:31)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.SecurityIdentity.runAsFunctionEx(SecurityIdentity.java:421)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.Scoped.runAsSupplierEx(Scoped.java:229)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.security.IdentityEJBClientInterceptor.handleInvocation(IdentityEJBClientInterceptor.java:30)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.TransactionInterceptor.handleInvocation(TransactionInterceptor.java:205)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.wildfly.common@2.0.1//org.wildfly.common.context.Contextual.runExConsumer(Contextual.java:203)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequestInitial(EJBClientInvocationContext.java:341)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBInvocationHandler.invoke(EJBInvocationHandler.java:178)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBInvocationHandler.invoke(EJBInvocationHandler.java:116)
+	at deployment.rest-ear.ear.rest-ejbs.jar/jdk.proxy32/jdk.proxy32.$Proxy159.getPublicationByJounal_Researcher(Unknown Source)
+	at deployment.rest-ear.ear.rest.war//service.PublicaitonsWS.getByJournal_Reseacher(PublicaitonsWS.java:53)
+	at deployment.rest-ear.ear.rest.war//service.PublicaitonsWS$Proxy$_$$_WeldClientProxy.getByJournal_Reseacher(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:154)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:118)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:560)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:452)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:413)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:321)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:415)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:378)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:356)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:70)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:429)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:240)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:154)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:321)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:157)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:229)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:222)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:55)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at jakarta.servlet.api@6.0.0//jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@4.1.2.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@4.1.2.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.3.20.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.3.20.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@4.1.2.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:44)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.SuspendedServerHandlerWrapper$1$1.handleRequest(SuspendedServerHandlerWrapper.java:50)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:271)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.call(ServletInitialHandler.java:127)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:251)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler.lambda$new$1(ServletInitialHandler.java:99)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:395)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:900)
+	at org.jboss.threads@3.9.1//org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads@3.9.1//org.jboss.threads.EnhancedQueueExecutor$Task.doRunWith(EnhancedQueueExecutor.java:2651)
+	at org.jboss.threads@3.9.1//org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2630)
+	at org.jboss.threads@3.9.1//org.jboss.threads.EnhancedQueueExecutor.runThreadBody(EnhancedQueueExecutor.java:1622)
+	at org.jboss.threads@3.9.1//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1589)
+	at org.jboss.xnio@3.8.16.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:1527)
+Caused by: java.lang.IllegalArgumentException: org.hibernate.query.sqm.UnknownPathException: Could not resolve attribute 'researcher' of 'data.Publication' [select distinct p from Publication p left join fetch p.researchers where p.journal = :journal and p.researcher = :name order by p.publicationDate]
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:143)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:167)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:173)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:886)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:202)
+	at org.jboss.as.jpa@38.0.0.Final//org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:119)
+	at deployment.rest-ear.ear.rest-ejbs.jar//beans.ManagePublications.getPublicationByJounal_Researcher(ManagePublications.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:35)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.common@38.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:62)
+	at org.jboss.as.weld.common@38.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:72)
+	at org.jboss.as.weld.common@38.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:85)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:46)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:26)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa@38.0.0.Final//org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:30)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.wildfly.concurrency@38.0.0.Final//org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:28)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:35)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:34)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:39)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	... 128 more
+Caused by: org.hibernate.query.sqm.UnknownPathException: Could not resolve attribute 'researcher' of 'data.Publication' [select distinct p from Publication p left join fetch p.researchers where p.journal = :journal and p.researcher = :name order by p.publicationDate]
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.StandardHqlTranslator.translate(StandardHqlTranslator.java:88)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.internal.QueryInterpretationCacheStandardImpl.createHqlInterpretation(QueryInterpretationCacheStandardImpl.java:145)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.internal.QueryInterpretationCacheStandardImpl.resolveHqlInterpretation(QueryInterpretationCacheStandardImpl.java:132)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.spi.QueryEngine.interpretHql(QueryEngine.java:54)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.AbstractSharedSessionContract.interpretHql(AbstractSharedSessionContract.java:832)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:878)
+	... 157 more
+Caused by: org.hibernate.query.sqm.PathElementException: Could not resolve attribute 'researcher' of 'data.Publication'
+	at org.hibernate@6.6.31.Final//org.hibernate.query.sqm.SqmPathSource.getSubPathSource(SqmPathSource.java:95)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.sqm.tree.domain.AbstractSqmPath.get(AbstractSqmPath.java:199)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.sqm.tree.domain.AbstractSqmFrom.resolvePathPart(AbstractSqmFrom.java:198)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.DomainPathPart.resolvePathPart(DomainPathPart.java:42)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.BasicDotIdentifierConsumer.consumeIdentifier(BasicDotIdentifierConsumer.java:92)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitSimplePath(SemanticQueryBuilder.java:5465)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitGeneralPathFragment(SemanticQueryBuilder.java:5298)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitGeneralPathExpression(SemanticQueryBuilder.java:1891)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$GeneralPathExpressionContext.accept(HqlParser.java:8268)
+	at org.antlr@4.13.0//org.antlr.v4.runtime.tree.AbstractParseTreeVisitor.visitChildren(AbstractParseTreeVisitor.java:46)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParserBaseVisitor.visitBarePrimaryExpression(HqlParserBaseVisitor.java:812)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$BarePrimaryExpressionContext.accept(HqlParser.java:7726)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.createComparisonPredicate(SemanticQueryBuilder.java:2548)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitComparisonPredicate(SemanticQueryBuilder.java:2509)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitComparisonPredicate(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$ComparisonPredicateContext.accept(HqlParser.java:6611)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitAndPredicate(SemanticQueryBuilder.java:2379)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitAndPredicate(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$AndPredicateContext.accept(HqlParser.java:6461)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitWhereClause(SemanticQueryBuilder.java:2361)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitWhereClause(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$WhereClauseContext.accept(HqlParser.java:6302)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitQuery(SemanticQueryBuilder.java:1259)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitQuerySpecExpression(SemanticQueryBuilder.java:1040)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitQuerySpecExpression(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$QuerySpecExpressionContext.accept(HqlParser.java:2134)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitSimpleQueryGroup(SemanticQueryBuilder.java:1025)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitSimpleQueryGroup(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$SimpleQueryGroupContext.accept(HqlParser.java:2005)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitSelectStatement(SemanticQueryBuilder.java:492)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitStatement(SemanticQueryBuilder.java:451)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.buildSemanticModel(SemanticQueryBuilder.java:324)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.StandardHqlTranslator.translate(StandardHqlTranslator.java:71)
+	... 162 more
+
+2026-11-19 16:05:29,060 ERROR [org.jboss.resteasy.core.providerfactory.DefaultExceptionMapper] (default task-2) RESTEASY002375: Error processing request GET /rest/services/myservice/getPubByJournal - service.PublicaitonsWS.getByJournal_Reseacher: java.lang.IllegalArgumentException: org.hibernate.query.sqm.UnknownPathException: Could not resolve attribute 'researcher' of 'data.Publication' [select distinct p from Publication p left join fetch p.researchers where p.journal = :journal and p.researcher = :name order by p.publicationDate]
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:143)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:167)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:173)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:886)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:202)
+	at org.jboss.as.jpa@38.0.0.Final//org.jboss.as.jpa.container.AbstractEntityManager.createQuery(AbstractEntityManager.java:119)
+	at deployment.rest-ear.ear.rest-ejbs.jar//beans.ManagePublications.getPublicationByJounal_Researcher(ManagePublications.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:35)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.common@38.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:62)
+	at org.jboss.as.weld.common@38.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:72)
+	at org.jboss.as.weld.common@38.0.0.Final//org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:85)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:46)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:26)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa@38.0.0.Final//org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:30)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.wildfly.concurrency@38.0.0.Final//org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:28)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:35)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:34)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:39)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:373)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:143)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.core@5.1.6.Final//org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:78)
+	at org.jboss.as.weld.common@38.0.0.Final//org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:72)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:24)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:30)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.security.IdentityOutflowInterceptor.processInvocation(IdentityOutflowInterceptor.java:56)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.security.SecurityDomainInterceptor.processInvocation(SecurityDomainInterceptor.java:27)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:27)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:47)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.deployment.processors.EjbSuspendInterceptor.processInvocation(EjbSuspendInterceptor.java:28)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:50)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:33)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:633)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation@2.0.1.Final//org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee@38.0.0.Final//org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:181)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.remote.LocalEjbReceiver.processInvocation(LocalEjbReceiver.java:242)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:499)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.protocol.remote.RemotingEJBClientInterceptor.handleInvocation(RemotingEJBClientInterceptor.java:52)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.TransactionPostDiscoveryInterceptor.handleInvocation(TransactionPostDiscoveryInterceptor.java:82)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.DiscoveryEJBClientInterceptor.handleInvocation(DiscoveryEJBClientInterceptor.java:116)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.NamingEJBClientInterceptor.handleInvocation(NamingEJBClientInterceptor.java:69)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.AuthenticationContextEJBClientInterceptor.lambda$handleInvocation$0(AuthenticationContextEJBClientInterceptor.java:45)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.AuthenticationContextEJBClientInterceptor.call(AuthenticationContextEJBClientInterceptor.java:59)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.AuthenticationContextEJBClientInterceptor.handleInvocation(AuthenticationContextEJBClientInterceptor.java:44)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.security.IdentityEJBClientInterceptor.lambda$handleInvocation$0(IdentityEJBClientInterceptor.java:31)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.SecurityIdentity.runAsFunctionEx(SecurityIdentity.java:421)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.Scoped.runAsSupplierEx(Scoped.java:229)
+	at org.jboss.as.ejb3@38.0.0.Final//org.jboss.as.ejb3.security.IdentityEJBClientInterceptor.handleInvocation(IdentityEJBClientInterceptor.java:30)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.TransactionInterceptor.handleInvocation(TransactionInterceptor.java:205)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequest(EJBClientInvocationContext.java:514)
+	at org.wildfly.common@2.0.1//org.wildfly.common.context.Contextual.runExConsumer(Contextual.java:203)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBClientInvocationContext.sendRequestInitial(EJBClientInvocationContext.java:341)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBInvocationHandler.invoke(EJBInvocationHandler.java:178)
+	at org.jboss.ejb-client@5.0.8.Final//org.jboss.ejb.client.EJBInvocationHandler.invoke(EJBInvocationHandler.java:116)
+	at deployment.rest-ear.ear.rest-ejbs.jar/jdk.proxy32/jdk.proxy32.$Proxy159.getPublicationByJounal_Researcher(Unknown Source)
+	at deployment.rest-ear.ear.rest.war//service.PublicaitonsWS.getByJournal_Reseacher(PublicaitonsWS.java:53)
+	at deployment.rest-ear.ear.rest.war//service.PublicaitonsWS$Proxy$_$$_WeldClientProxy.getByJournal_Reseacher(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:154)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:118)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:560)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:452)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$2(ResourceMethodInvoker.java:413)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:321)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:415)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:378)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:356)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:70)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:429)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:240)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:154)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:321)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:157)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:229)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:222)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:55)
+	at org.jboss.resteasy.resteasy-core@6.2.14.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at jakarta.servlet.api@6.0.0//jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@4.1.2.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@2.7.0.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@4.1.2.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.3.20.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.3.20.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@4.1.2.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:44)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.SuspendedServerHandlerWrapper$1$1.handleRequest(SuspendedServerHandlerWrapper.java:50)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:271)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.call(ServletInitialHandler.java:127)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at org.wildfly.extension.undertow@38.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1433)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:251)
+	at io.undertow.servlet@2.3.20.Final//io.undertow.servlet.handlers.ServletInitialHandler.lambda$new$1(ServletInitialHandler.java:99)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:395)
+	at io.undertow.core@2.3.20.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:900)
+	at org.jboss.threads@3.9.1//org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads@3.9.1//org.jboss.threads.EnhancedQueueExecutor$Task.doRunWith(EnhancedQueueExecutor.java:2651)
+	at org.jboss.threads@3.9.1//org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2630)
+	at org.jboss.threads@3.9.1//org.jboss.threads.EnhancedQueueExecutor.runThreadBody(EnhancedQueueExecutor.java:1622)
+	at org.jboss.threads@3.9.1//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1589)
+	at org.jboss.xnio@3.8.16.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:1527)
+Caused by: org.hibernate.query.sqm.UnknownPathException: Could not resolve attribute 'researcher' of 'data.Publication' [select distinct p from Publication p left join fetch p.researchers where p.journal = :journal and p.researcher = :name order by p.publicationDate]
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.StandardHqlTranslator.translate(StandardHqlTranslator.java:88)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.internal.QueryInterpretationCacheStandardImpl.createHqlInterpretation(QueryInterpretationCacheStandardImpl.java:145)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.internal.QueryInterpretationCacheStandardImpl.resolveHqlInterpretation(QueryInterpretationCacheStandardImpl.java:132)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.spi.QueryEngine.interpretHql(QueryEngine.java:54)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.AbstractSharedSessionContract.interpretHql(AbstractSharedSessionContract.java:832)
+	at org.hibernate@6.6.31.Final//org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:878)
+	... 157 more
+Caused by: org.hibernate.query.sqm.PathElementException: Could not resolve attribute 'researcher' of 'data.Publication'
+	at org.hibernate@6.6.31.Final//org.hibernate.query.sqm.SqmPathSource.getSubPathSource(SqmPathSource.java:95)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.sqm.tree.domain.AbstractSqmPath.get(AbstractSqmPath.java:199)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.sqm.tree.domain.AbstractSqmFrom.resolvePathPart(AbstractSqmFrom.java:198)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.DomainPathPart.resolvePathPart(DomainPathPart.java:42)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.BasicDotIdentifierConsumer.consumeIdentifier(BasicDotIdentifierConsumer.java:92)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitSimplePath(SemanticQueryBuilder.java:5465)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitGeneralPathFragment(SemanticQueryBuilder.java:5298)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitGeneralPathExpression(SemanticQueryBuilder.java:1891)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$GeneralPathExpressionContext.accept(HqlParser.java:8268)
+	at org.antlr@4.13.0//org.antlr.v4.runtime.tree.AbstractParseTreeVisitor.visitChildren(AbstractParseTreeVisitor.java:46)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParserBaseVisitor.visitBarePrimaryExpression(HqlParserBaseVisitor.java:812)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$BarePrimaryExpressionContext.accept(HqlParser.java:7726)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.createComparisonPredicate(SemanticQueryBuilder.java:2548)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitComparisonPredicate(SemanticQueryBuilder.java:2509)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitComparisonPredicate(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$ComparisonPredicateContext.accept(HqlParser.java:6611)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitAndPredicate(SemanticQueryBuilder.java:2379)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitAndPredicate(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$AndPredicateContext.accept(HqlParser.java:6461)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitWhereClause(SemanticQueryBuilder.java:2361)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitWhereClause(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$WhereClauseContext.accept(HqlParser.java:6302)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitQuery(SemanticQueryBuilder.java:1259)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitQuerySpecExpression(SemanticQueryBuilder.java:1040)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitQuerySpecExpression(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$QuerySpecExpressionContext.accept(HqlParser.java:2134)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitSimpleQueryGroup(SemanticQueryBuilder.java:1025)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitSimpleQueryGroup(SemanticQueryBuilder.java:277)
+	at org.hibernate@6.6.31.Final//org.hibernate.grammars.hql.HqlParser$SimpleQueryGroupContext.accept(HqlParser.java:2005)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitSelectStatement(SemanticQueryBuilder.java:492)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.visitStatement(SemanticQueryBuilder.java:451)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.SemanticQueryBuilder.buildSemanticModel(SemanticQueryBuilder.java:324)
+	at org.hibernate@6.6.31.Final//org.hibernate.query.hql.internal.StandardHqlTranslator.translate(StandardHqlTranslator.java:71)
+	... 162 more
+
+2026-11-19 16:14:21,153 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 115) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\ce\2f48901d95380dd3d58f30e088d06091824ba7\content
+2026-11-19 16:14:21,160 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 120) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-19 16:14:21,160 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 121) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-19 16:14:21,167 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:14:21,171 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:14:21,173 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 16ms
+2026-11-19 16:14:21,175 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 19ms
+2026-11-19 16:14:21,176 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 19ms
+2026-11-19 16:14:21,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 21ms
+2026-11-19 16:14:21,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-19 16:14:21,237 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-19 16:14:21,237 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-19 16:14:21,237 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-19 16:14:21,416 INFO  [org.jboss.as.jpa] (MSC service thread 1-9) WFLYJPA0002: Read persistence.xml for project2
+2026-11-19 16:14:21,463 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 16:14:21,464 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:14:21,464 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 128) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-19 16:14:21,467 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-19 16:14:21,471 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 128) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-19 16:14:21,486 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-19 16:14:21,486 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-19 16:14:21,489 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-19 16:14:21,495 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-19 16:14:21,524 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 16:14:21,538 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 128) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@7df66ea5']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19 16:14:21,543 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 128) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-19 16:14:21,547 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 128) Envers integration enabled? : true
+2026-11-19 16:14:21,564 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:14:21,795 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 137) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-19 16:14:21,817 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 139) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-19 16:14:21,822 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 139) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-19 16:14:21,857 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 115) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-19 16:14:21,860 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 115) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\d7\feda1672d74429aa98b173889685b8bbb7d5e7\content
+2026-11-19 16:33:19,185 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 145) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\7e\62fc9b7a25183eea85f2124006b598ce124fa6\content
+2026-11-19 16:33:19,185 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 148) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-19 16:33:19,185 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 147) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-19 16:33:19,195 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 155) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:33:19,195 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 155) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:33:19,197 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 8ms
+2026-11-19 16:33:19,200 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 10ms
+2026-11-19 16:33:19,202 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 12ms
+2026-11-19 16:33:19,202 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 14ms
+2026-11-19 16:33:19,202 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-19 16:33:19,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-19 16:33:19,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-19 16:33:19,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-19 16:33:19,455 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for project2
+2026-11-19 16:33:19,510 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 16:33:19,510 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 155) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:33:19,510 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 155) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-19 16:33:19,517 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-19 16:33:19,517 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 155) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-19 16:33:19,517 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 155) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@7df66ea5']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19 16:33:19,517 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 155) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-19 16:33:19,517 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 155) Envers integration enabled? : true
+2026-11-19 16:33:19,533 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-19 16:33:19,533 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-19 16:33:19,538 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-19 16:33:19,540 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-19 16:33:19,564 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 16:33:19,586 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 155) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:33:19,815 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 165) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-19 16:33:19,836 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 166) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-19 16:33:19,841 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 166) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-19 16:33:19,862 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 145) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-19 16:33:19,863 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 145) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\ce\2f48901d95380dd3d58f30e088d06091824ba7\content
+2026-11-19 16:42:30,903 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 172) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\e1\c6d87a397e913bbfcffbfa605fad2f87a95ff1\content
+2026-11-19 16:42:30,905 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 174) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-19 16:42:30,905 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 175) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-19 16:42:30,908 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 188) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:42:30,908 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 188) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:42:30,911 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 6ms
+2026-11-19 16:42:30,913 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 8ms
+2026-11-19 16:42:30,914 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 9ms
+2026-11-19 16:42:30,915 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 11ms
+2026-11-19 16:42:30,916 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-19 16:42:30,987 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-19 16:42:30,987 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-19 16:42:30,987 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-19 16:42:31,198 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for project2
+2026-11-19 16:42:31,239 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 16:42:31,240 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 188) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:42:31,240 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 188) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-19 16:42:31,244 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-19 16:42:31,246 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 188) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-19 16:42:31,248 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 188) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@7df66ea5']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19 16:42:31,248 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 188) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-19 16:42:31,251 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 188) Envers integration enabled? : true
+2026-11-19 16:42:31,267 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-19 16:42:31,267 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-19 16:42:31,269 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-19 16:42:31,270 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-19 16:42:31,293 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 16:42:31,309 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 188) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:42:31,467 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 193) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-19 16:42:31,480 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 194) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-19 16:42:31,484 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 194) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-19 16:42:31,507 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 172) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-19 16:42:31,509 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 172) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\7e\62fc9b7a25183eea85f2124006b598ce124fa6\content
+2026-11-19 16:42:47,150 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-19 16:43:36,653 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 197) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\e6\8c4e34ed703868655973e4ed58b53fdb1cb602\content
+2026-11-19 16:43:36,654 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 198) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-19 16:43:36,655 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 199) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-19 16:43:36,658 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 204) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:43:36,658 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 204) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:43:36,660 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 6ms
+2026-11-19 16:43:36,662 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 7ms
+2026-11-19 16:43:36,662 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 8ms
+2026-11-19 16:43:36,664 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 9ms
+2026-11-19 16:43:36,664 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-19 16:43:36,714 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-19 16:43:36,714 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-19 16:43:36,714 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-19 16:43:36,836 INFO  [org.jboss.as.jpa] (MSC service thread 1-9) WFLYJPA0002: Read persistence.xml for project2
+2026-11-19 16:43:36,879 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 16:43:36,879 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 204) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:43:36,879 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 204) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-19 16:43:36,884 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 204) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-19 16:43:36,884 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-19 16:43:36,886 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 204) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@7df66ea5']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19 16:43:36,886 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 204) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-19 16:43:36,888 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 204) Envers integration enabled? : true
+2026-11-19 16:43:36,896 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-19 16:43:36,897 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-19 16:43:36,898 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-9) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-19 16:43:36,900 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-19 16:43:36,924 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-19 16:43:36,937 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 204) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-19 16:43:37,071 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 213) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-19 16:43:37,080 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 212) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-19 16:43:37,083 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 212) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-19 16:43:37,097 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 197) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-19 16:43:37,098 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 197) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\e1\c6d87a397e913bbfcffbfa605fad2f87a95ff1\content
+2026-11-19 16:43:41,099 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-19 17:03:34,371 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-19 17:03:34,453 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-19 17:03:56,985 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-19 17:03:56,997 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate

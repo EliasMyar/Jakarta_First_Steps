@@ -1,0 +1,1 @@
+bin\standalone.bat --server-config=standalone-full.xml -Djboss.socket.binding.port-offset=100

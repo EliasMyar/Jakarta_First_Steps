@@ -1,0 +1,659 @@
+2026-11-24 15:59:48,246 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final
+2026-11-24 15:59:55,208 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.6.Final
+2026-11-24 15:59:55,224 INFO  [org.jboss.threads] (main) JBoss Threads version 3.9.1
+2026-11-24 15:59:55,411 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: WildFly 38.0.0.Final (WildFly Core 30.0.0.Final) starting
+2026-11-24 15:59:55,414 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\jboss-modules.jar
+	java.class.version = 71.0
+	java.home = C:\Program Files\Java\latest\jdk-27
+	java.io.tmpdir = C:\Users\ELIASM~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\latest\jdk-27\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\latest\jdk-27\bin;D:\Maven 3.X\apache-maven-3.10.0\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Files\Git\cmd;D:\MPLAB_compiler\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\SQL\bin;D:\python_3.13.12\Scripts\;D:\python_3.13.12\;D:\python_3.10.11\Scripts\;D:\python_3.10.11\;C:\Users\Elias Myarkovskiy\AppData\Local\Programs\Python\Launcher\;C:\Users\Elias Myarkovskiy\AppData\Local\Microsoft\WindowsApps;D:\VScode\Microsoft VS Code\bin;C:\Users\Elias Myarkovskiy\AppData\Local\Python\bin;C:\Users\Elias Myarkovskiy\AppData\Roaming\npm;D:\VScode\Microsoft VS Code\bin\copilot-shim;C:\Users\Elias Myarkovskiy\.dotnet\tools;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 27+35-2325
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 27
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 27
+	java.version.date = 2026-09-15
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 27
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 27+35-2325
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final
+	jboss.host.name = eliaspc
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = eliaspc
+	jboss.qualified.host.name = eliaspc
+	jboss.server.base.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone
+	jboss.server.config.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data
+	jboss.server.log.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\log
+	jboss.server.name = eliaspc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\tmp
+	jboss.socket.binding.port-offset = 100
+	jboss.threads.eqe.statistics = true
+	jdk.debug = release
+	jdk.serialFilter = maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000
+	line.separator = 
+
+	logging.configuration = file:D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration/logging.properties
+	module.path = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = cp437
+	stdin.encoding = cp437
+	stdout.encoding = cp437
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\latest\jdk-27\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\jboss-modules.jar -mp D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final --server-config=standalone-full.xml -Djboss.socket.binding.port-offset=100
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.dir = D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final
+	user.home = C:\Users\Elias Myarkovskiy
+	user.language = en
+	user.name = Elias Myarkovskiy
+	user.script = 
+	user.timezone = Europe/Lisbon
+	user.variant = 
+2026-11-24 15:59:55,419 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djdk.serialFilter=maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000 --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration/logging.properties 
+2026-11-24 16:00:02,501 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.7.0.Final
+2026-11-24 16:00:05,137 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2026-11-24 16:00:05,159 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.16.Final
+2026-11-24 16:00:05,174 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.16.Final
+2026-11-24 16:00:05,203 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 56) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2026-11-24 16:00:05,214 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 57) WFLYHEALTH0001: Activating Base Health Subsystem
+2026-11-24 16:00:05,228 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 58) WFLYIIOP0001: Activating IIOP Subsystem
+2026-11-24 16:00:05,230 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ear.ear" (runtime-name: "ear.ear")
+2026-11-24 16:00:05,230 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 16:00:05,234 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 61) WFLYRS0016: RESTEasy version 6.2.14.Final
+2026-11-24 16:00:05,235 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.14.Final)
+2026-11-24 16:00:05,246 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 66) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2026-11-24 16:00:05,266 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 71) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2026-11-24 16:00:05,271 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 72) WFLYNAM0001: Activating Naming Subsystem
+2026-11-24 16:00:05,288 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2026-11-24 16:00:05,295 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0001: Activating Infinispan subsystem.
+2026-11-24 16:00:05,300 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 69) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2026-11-24 16:00:05,302 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2026-11-24 16:00:05,303 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY00023: KeyStore file 'D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2026-11-24 16:00:05,337 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2026-11-24 16:00:05,337 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 70) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2026-11-24 16:00:05,349 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 81) WFLYWS0002: Activating WebServices Extension
+2026-11-24 16:00:05,354 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 79) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2026-11-24 16:00:05,359 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2026-11-24 16:00:05,402 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2026-11-24 16:00:05,402 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 48 (per class), which is derived from thread worker pool sizing.
+2026-11-24 16:00:05,432 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2026-11-24 16:00:05,433 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 47) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.7)
+2026-11-24 16:00:05,439 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2026-11-24 16:00:05,449 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 60) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2026-11-24 16:00:05,514 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.31.Final
+2026-11-24 16:00:05,525 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.3.20.Final starting
+2026-11-24 16:00:05,569 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0014: Creating file handler for path 'D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2026-11-24 16:00:05,589 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-9) WFLYUT0012: Started server default-server.
+2026-11-24 16:00:05,593 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-9) Queuing requests.
+2026-11-24 16:00:05,594 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-9) WFLYUT0018: Host default-host starting
+2026-11-24 16:00:05,645 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2026-11-24 16:00:05,678 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8180
+2026-11-24 16:00:05,709 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8543
+2026-11-24 16:00:05,718 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/postgresDS]
+2026-11-24 16:00:05,718 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-9) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2026-11-24 16:00:05,761 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-3) WFLYIIOP0009: CORBA ORB Service started
+2026-11-24 16:00:11,562 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2026-11-24 16:00:11,669 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221000: Primary message broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\activemq\journal,bindingsDirectory=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\activemq\largemessages,pagingDirectory=D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\activemq\paging)
+2026-11-24 16:00:11,711 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221013: Using NIO Journal
+2026-11-24 16:00:11,774 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\deployments
+2026-11-24 16:00:11,880 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2026-11-24 16:00:11,881 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2026-11-24 16:00:11,882 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2026-11-24 16:00:11,882 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2026-11-24 16:00:11,952 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221034: Waiting indefinitely to obtain primary lock
+2026-11-24 16:00:11,952 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221035: Primary Server Obtained primary lock
+2026-11-24 16:00:12,208 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-24 16:00:12,208 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "soap.war")
+2026-11-24 16:00:12,208 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-24 16:00:12,208 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-24 16:00:12,208 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "ejbs.jar")
+2026-11-24 16:00:12,543 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221003: Deploying ANYCAST queue jms.queue.ExpiryQueue on address jms.queue.ExpiryQueue
+2026-11-24 16:00:12,544 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221003: Deploying ANYCAST queue jms.queue.DLQ on address jms.queue.DLQ
+2026-11-24 16:00:12,548 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2026-11-24 16:00:12,548 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2026-11-24 16:00:12,548 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2026-11-24 16:00:12,548 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2026-11-24 16:00:13,128 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221007: Server is now active
+2026-11-24 16:00:13,128 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 83) AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.42.0 [default, nodeID=b4b5f657-d55b-11f1-a0e1-0a002700000a] 
+2026-11-24 16:00:13,148 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 84) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2026-11-24 16:00:13,150 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 85) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2026-11-24 16:00:13,203 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0007: Registered connection factory java:/JmsXA
+2026-11-24 16:00:13,215 INFO  [org.apache.activemq.artemis.ra.ActiveMQRALogger] (MSC service thread 1-7) AMQ151007: Resource adaptor started
+2026-11-24 16:00:13,216 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-7) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2026-11-24 16:00:13,218 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) WFLYJCA0002: Bound Jakarta Connectors ConnectionFactory [java:/JmsXA]
+2026-11-24 16:00:13,218 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) WFLYJCA0118: Binding connection factory named java:/JmsXA to alias java:jboss/DefaultJMSConnectionFactory
+2026-11-24 16:00:13,367 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 7.3.5.Final (Apache CXF 4.0.9.jbossorg-1) 
+2026-11-24 16:00:13,592 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 16:00:13,592 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 16:00:16,213 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:00:16,213 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for ear.ear#project2
+2026-11-24 16:00:16,327 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ear.ear
+2026-11-24 16:00:16,327 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-24 16:00:16,954 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000556: Starting user marshaller 'org.wildfly.clustering.cache.infinispan.marshalling.UserMarshaller'
+2026-11-24 16:00:17,635 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 85) Started hibernate cache container
+2026-11-24 16:00:17,643 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:00:17,643 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ear.ear#project2'
+2026-11-24 16:00:17,673 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 85) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 16:00:17,673 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 86) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 16:00:17,775 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 86) HHH000412: Hibernate ORM core version 6.6.31.Final
+2026-11-24 16:00:17,857 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 85) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 16:00:17,857 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 86) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 16:00:17,858 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 8.0.3.Final
+2026-11-24 16:00:18,190 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment soap.war
+2026-11-24 16:00:18,196 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-24 16:00:18,207 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-24 16:00:18,207 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment ejbs.jar
+2026-11-24 16:00:18,215 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-24 16:00:18,215 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ManageResearchers' in deployment unit 'subdeployment "ejbs.jar" of deployment "ear.ear"' are as follows:
+
+	java:global/ear/ejbs/ManageResearchers!beans.IManageResearchers
+	java:app/ejbs/ManageResearchers!beans.IManageResearchers
+	java:module/ManageResearchers!beans.IManageResearchers
+	java:jboss/exported/ear/ejbs/ManageResearchers!beans.IManageResearchers
+	ejb:ear/ejbs/ManageResearchers!beans.IManageResearchers
+	java:global/ear/ejbs/ManageResearchers
+	java:app/ejbs/ManageResearchers
+	java:module/ManageResearchers
+
+2026-11-24 16:00:18,273 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-24 16:00:18,294 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for ear.ear#project2
+2026-11-24 16:00:18,340 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:00:18,363 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 5.1.6 (Final)
+2026-11-24 16:00:18,508 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 85) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 16:00:18,508 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 86) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 16:00:18,515 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 85) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 16:00:18,515 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 86) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 16:00:18,529 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-5) JBWS024061: Adding service endpoint metadata: id=ws.ResearchersWS
+ address=http://localhost:8180/soap/ResearchersWS
+ implementor=ws.ResearchersWS
+ serviceName={http://ws/}ResearchersWSService
+ portName={http://ws/}ResearchersWSPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2026-11-24 16:00:18,634 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 85) Envers integration enabled? : true
+2026-11-24 16:00:18,634 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 86) Envers integration enabled? : true
+2026-11-24 16:00:18,980 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 86) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:00:18,980 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ear.ear#project2'
+2026-11-24 16:00:19,416 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-5) Creating Service {http://ws/}ResearchersWSService from class ws.ResearchersWS
+2026-11-24 16:00:19,830 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-5) Setting the server's publish address to be http://localhost:8180/soap/ResearchersWS
+2026-11-24 16:00:19,944 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-5) JBWS024074: WSDL published to: file:/D:/UClibrary/Mestrado/2ANO/1semestre/IS/pratica2/wildfly-38.0.0.Final/standalone/data/wsdl/ear.ear/soap.war/ResearchersWSService.wsdl
+2026-11-24 16:00:19,993 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) WFLYWS0003: Starting service jboss.ws.endpoint."ear.ear"."soap.war"."ws.ResearchersWS"
+2026-11-24 16:00:21,621 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 115) WFLYUT0021: Registered web context: '/soap' for server 'default-server'
+2026-11-24 16:00:21,621 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-24 16:00:21,962 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 85) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-24 16:00:22,648 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-24 16:00:22,905 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "rest-ear.ear" (runtime-name : "rest-ear.ear")
+2026-11-24 16:00:22,911 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 48) WFLYSRV0010: Deployed "ear.ear" (runtime-name : "ear.ear")
+2026-11-24 16:00:22,994 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2026-11-24 16:00:23,013 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:10090/management
+2026-11-24 16:00:23,021 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:10090
+2026-11-24 16:00:23,027 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly 38.0.0.Final (WildFly Core 30.0.0.Final) started in 45353ms - Started 1171 of 1359 services (369 services are lazy, passive or on-demand) - Server configuration file in use: standalone-full.xml - Minimum feature stability level: community
+2026-11-24 16:00:58,090 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 105) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\a2\fb2e1bafea566b3490ce47d3b368fbc524e669\content
+2026-11-24 16:00:58,115 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 125) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-24 16:00:58,114 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 122) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-24 16:00:58,150 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:00:58,162 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:00:58,170 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 71ms
+2026-11-24 16:00:58,173 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 76ms
+2026-11-24 16:00:58,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 79ms
+2026-11-24 16:00:58,183 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 85ms
+2026-11-24 16:00:58,185 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 16:00:58,329 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-24 16:00:58,329 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-24 16:00:58,329 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-24 16:00:58,958 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 16:00:59,087 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:00:59,088 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:00:59,088 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 128) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 16:00:59,099 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-24 16:00:59,104 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 128) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 16:00:59,109 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 128) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 16:00:59,109 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 128) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 16:00:59,115 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 128) Envers integration enabled? : true
+2026-11-24 16:00:59,141 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-24 16:00:59,142 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-24 16:00:59,147 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-24 16:00:59,151 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-24 16:00:59,213 INFO  [org.jipijapa] (MSC service thread 1-9) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:00:59,248 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 128) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:00:59,690 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 155) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-24 16:00:59,729 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 154) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-24 16:00:59,738 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 154) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-24 16:00:59,832 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 105) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-24 16:00:59,836 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 105) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\e6\8c4e34ed703868655973e4ed58b53fdb1cb602\content
+2026-11-24 16:03:54,857 INFO  [org.jboss.ejb.client] (default task-2) JBoss EJB Client version 5.0.8.Final
+2026-11-24 16:03:55,767 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:07:19,764 INFO  [org.wildfly.naming] (default task-2) WildFly Naming version 2.0.1.Final
+2026-11-24 16:07:23,923 INFO  [stdout] (default task-3) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id order by r1_0.name
+2026-11-24 16:07:46,374 INFO  [stdout] (default task-3) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id where r1_0.name=? order by r1_0.name
+2026-11-24 16:08:16,331 INFO  [stdout] (default task-3) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id where ? in (select i2_0.interests from Researcher_interests i2_0 where r1_0.id=i2_0.Researcher_id) order by r1_0.name
+2026-11-24 16:08:45,202 INFO  [stdout] (default task-3) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id where r1_0.name=? order by r1_0.name
+2026-11-24 16:11:55,934 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 155) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\30\04a08c43d977b6ab2fb614cf4ee3a751797fe1\content
+2026-11-24 16:11:55,970 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 161) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-24 16:11:55,970 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 162) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-24 16:11:55,990 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:11:55,997 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:11:56,005 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 66ms
+2026-11-24 16:11:56,014 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 74ms
+2026-11-24 16:11:56,017 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 78ms
+2026-11-24 16:11:56,020 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 82ms
+2026-11-24 16:11:56,022 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 16:11:56,150 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-24 16:11:56,150 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-24 16:11:56,150 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-24 16:11:56,595 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 16:11:56,699 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:11:56,700 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:11:56,700 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 179) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 16:11:56,720 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-24 16:11:56,723 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 179) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 16:11:56,728 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 179) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 16:11:56,729 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 179) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 16:11:56,734 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 179) Envers integration enabled? : true
+2026-11-24 16:11:56,759 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-24 16:11:56,760 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-24 16:11:56,763 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-24 16:11:56,772 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-24 16:11:56,848 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:11:56,888 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:11:57,260 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 180) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-24 16:11:57,297 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 184) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-24 16:11:57,306 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 184) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-24 16:11:57,341 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 155) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-24 16:11:57,345 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 155) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\a2\fb2e1bafea566b3490ce47d3b368fbc524e669\content
+2026-11-24 16:12:50,359 INFO  [stdout] (default task-3) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.title=? order by p1_0.publicationDate
+2026-11-24 16:13:24,168 INFO  [stdout] (default task-3) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:16:52,162 INFO  [stdout] (default task-3) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:17:36,157 INFO  [stdout] (default task-3) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.title=? order by p1_0.publicationDate
+2026-11-24 16:17:52,472 INFO  [stdout] (default task-3) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.id in (select p2_0.id from Publication p2_0 join Publication_researchers r2_0 on p2_0.id=r2_0.Publication_id where r2_0.researchers=?) order by p1_0.publicationDate
+2026-11-24 16:32:29,788 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 189) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-24 16:32:29,792 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 191) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-24 16:32:29,905 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 241) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:32:29,910 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 241) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:32:29,939 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 159ms
+2026-11-24 16:32:29,945 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 164ms
+2026-11-24 16:32:29,946 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 166ms
+2026-11-24 16:32:29,951 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 172ms
+2026-11-24 16:32:29,989 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 155) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\30\04a08c43d977b6ab2fb614cf4ee3a751797fe1\content
+2026-11-24 16:32:29,989 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 155) WFLYSRV0009: Undeployed "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 16:33:00,061 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 246) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\24\e9d10b76fa18dbc52263c31491eefc7b3437bc\content
+2026-11-24 16:33:00,066 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 16:33:00,186 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-24 16:33:00,186 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-24 16:33:00,186 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-24 16:33:00,619 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 16:33:00,718 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:33:00,719 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 247) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:33:00,719 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 247) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 16:33:00,729 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-24 16:33:00,735 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 247) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 16:33:00,741 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 247) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 16:33:00,742 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 247) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 16:33:00,747 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 247) Envers integration enabled? : true
+2026-11-24 16:33:00,757 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-24 16:33:00,758 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-24 16:33:00,762 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-24 16:33:00,769 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-24 16:33:00,813 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:33:00,844 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 247) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:33:01,165 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 260) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-24 16:33:01,199 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 260) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-24 16:33:01,205 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 260) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-24 16:33:01,242 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 246) WFLYSRV0010: Deployed "rest-ear.ear" (runtime-name : "rest-ear.ear")
+2026-11-24 16:33:04,544 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:33:05,645 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:33:06,379 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:33:06,545 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:33:06,713 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:33:06,897 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:33:07,096 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:33:07,294 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:33:07,488 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:35:51,344 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:36:21,285 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.journal=? order by p1_0.publicationDate
+2026-11-24 16:36:42,187 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.journal=? and p1_0.id in (select p2_0.id from Publication p2_0 join Publication_researchers r2_0 on p2_0.id=r2_0.Publication_id where r2_0.researchers=?) order by p1_0.publicationDate
+2026-11-24 16:38:11,175 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.institution=? and p1_0.publicationDate between ? and ? order by p1_0.publicationDate
+2026-11-24 16:42:25,070 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.institution=? and p1_0.publicationDate between ? and ? order by p1_0.publicationDate
+2026-11-24 16:42:43,479 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id order by r1_0.name
+2026-11-24 16:42:47,684 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id where r1_0.name=? order by r1_0.name
+2026-11-24 16:42:55,045 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id where ? in (select i2_0.interests from Researcher_interests i2_0 where r1_0.id=i2_0.Researcher_id) order by r1_0.name
+2026-11-24 16:42:59,040 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id where r1_0.name=? order by r1_0.name
+2026-11-24 16:43:06,039 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.title=? order by p1_0.publicationDate
+2026-11-24 16:43:08,756 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.id in (select p2_0.id from Publication p2_0 join Publication_researchers r2_0 on p2_0.id=r2_0.Publication_id where r2_0.researchers=?) order by p1_0.publicationDate
+2026-11-24 16:43:12,036 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.journal=? order by p1_0.publicationDate
+2026-11-24 16:43:16,529 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.journal=? and p1_0.id in (select p2_0.id from Publication p2_0 join Publication_researchers r2_0 on p2_0.id=r2_0.Publication_id where r2_0.researchers=?) order by p1_0.publicationDate
+2026-11-24 16:51:02,891 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 262) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\b9\ddda74eb976428aabfd58efb10b9f574000d5f\content
+2026-11-24 16:51:02,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 263) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-24 16:51:02,893 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 264) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-24 16:51:02,896 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 276) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:51:02,897 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 276) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:51:02,899 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 6ms
+2026-11-24 16:51:02,900 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 7ms
+2026-11-24 16:51:02,902 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 8ms
+2026-11-24 16:51:02,903 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 10ms
+2026-11-24 16:51:02,903 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 16:51:02,954 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-24 16:51:02,954 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-24 16:51:02,954 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-24 16:51:03,079 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 16:51:03,121 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:51:03,121 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 276) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:51:03,121 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 276) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 16:51:03,123 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-24 16:51:03,128 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 276) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 16:51:03,131 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 276) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 16:51:03,132 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 276) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 16:51:03,135 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 276) Envers integration enabled? : true
+2026-11-24 16:51:03,138 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-24 16:51:03,139 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-24 16:51:03,140 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-24 16:51:03,142 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-24 16:51:03,162 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 16:51:03,177 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 276) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 16:51:03,330 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 277) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-24 16:51:03,345 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 283) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-24 16:51:03,349 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 283) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-24 16:51:03,363 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 262) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-24 16:51:03,364 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 262) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\24\e9d10b76fa18dbc52263c31491eefc7b3437bc\content
+2026-11-24 16:51:30,615 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 16:55:12,715 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id order by r1_0.name
+2026-11-24 17:28:34,293 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 277) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\30\04a08c43d977b6ab2fb614cf4ee3a751797fe1\content
+2026-11-24 17:28:34,293 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 287) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-24 17:28:34,293 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 291) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-24 17:28:34,293 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 301) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 17:28:34,293 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 301) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 17:28:34,293 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 8ms
+2026-11-24 17:28:34,309 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 10ms
+2026-11-24 17:28:34,309 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 11ms
+2026-11-24 17:28:34,312 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 13ms
+2026-11-24 17:28:34,312 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 17:28:34,367 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-24 17:28:34,367 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-24 17:28:34,367 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-24 17:28:34,367 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 0ms
+2026-11-24 17:28:34,367 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 0ms
+2026-11-24 17:28:34,529 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 161ms
+2026-11-24 17:28:34,533 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 220ms
+2026-11-24 17:28:34,535 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 17:28:34,591 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-24 17:28:34,591 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-24 17:28:34,591 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-24 17:28:34,735 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 17:28:34,780 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 17:28:34,780 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 301) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 17:28:34,780 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 301) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 17:28:34,782 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-24 17:28:34,786 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 301) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 17:28:34,786 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 301) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 17:28:34,786 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 301) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 17:28:34,795 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 301) Envers integration enabled? : true
+2026-11-24 17:28:34,800 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-24 17:28:34,802 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-24 17:28:34,804 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-24 17:28:34,805 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-24 17:28:34,823 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 17:28:34,844 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 301) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 17:28:35,017 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 303) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-24 17:28:35,028 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 306) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-24 17:28:35,033 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 306) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-24 17:28:35,049 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 277) WFLYSRV0013: Redeployed "rest-ear.ear"
+2026-11-24 17:28:35,049 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 277) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-24 17:28:35,054 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 277) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\b9\ddda74eb976428aabfd58efb10b9f574000d5f\content
+2026-11-24 18:47:03,567 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 277) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\0e\d06570309417036782559dcb61702772b74b1c\content
+2026-11-24 18:47:03,570 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 312) WFLYUT0022: Unregistered web context: '/webapp' from server 'default-server'
+2026-11-24 18:47:03,570 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 311) WFLYUT0022: Unregistered web context: '/rest' from server 'default-server'
+2026-11-24 18:47:03,573 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 324) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 18:47:03,573 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 324) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 18:47:03,576 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: rest-ejbs.jar) in 7ms
+2026-11-24 18:47:03,578 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: rest.war) in 9ms
+2026-11-24 18:47:03,579 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: webapp.war) in 9ms
+2026-11-24 18:47:03,579 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0028: Stopped deployment rest-ear.ear (runtime-name: rest-ear.ear) in 10ms
+2026-11-24 18:47:03,581 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0027: Starting deployment of "rest-ear.ear" (runtime-name: "rest-ear.ear")
+2026-11-24 18:47:03,635 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "webapp.war")
+2026-11-24 18:47:03,635 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "rest.war")
+2026-11-24 18:47:03,635 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0207: Starting subdeployment (runtime-name: "rest-ejbs.jar")
+2026-11-24 18:47:03,756 INFO  [org.jboss.as.jpa] (MSC service thread 1-9) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 18:47:03,793 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 18:47:03,793 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 324) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 18:47:03,793 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 324) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 18:47:03,795 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest-ear.ear
+2026-11-24 18:47:03,800 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 324) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 18:47:03,808 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment rest.war
+2026-11-24 18:47:03,808 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment rest-ejbs.jar
+2026-11-24 18:47:03,810 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ManagePublications' in deployment unit 'subdeployment "rest-ejbs.jar" of deployment "rest-ear.ear"' are as follows:
+
+	java:global/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:app/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:module/ManagePublications!beans.ImanagePublications
+	java:jboss/exported/rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	ejb:rest-ear/rest-ejbs/ManagePublications!beans.ImanagePublications
+	java:global/rest-ear/rest-ejbs/ManagePublications
+	java:app/rest-ejbs/ManagePublications
+	java:module/ManagePublications
+
+2026-11-24 18:47:03,813 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment webapp.war
+2026-11-24 18:47:03,831 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for rest-ear.ear#project2
+2026-11-24 18:47:03,914 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 324) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 18:47:03,915 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 324) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 18:47:03,918 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 324) Envers integration enabled? : true
+2026-11-24 18:47:03,929 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 324) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'rest-ear.ear#project2'
+2026-11-24 18:47:04,117 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 326) WFLYUT0021: Registered web context: '/webapp' for server 'default-server'
+2026-11-24 18:47:04,129 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 329) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class service.ApplicationConfig
+2026-11-24 18:47:04,132 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 329) WFLYUT0021: Registered web context: '/rest' for server 'default-server'
+2026-11-24 18:47:04,147 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 277) WFLYSRV0016: Replaced deployment "rest-ear.ear" with deployment "rest-ear.ear"
+2026-11-24 18:47:04,149 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 277) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\30\04a08c43d977b6ab2fb614cf4ee3a751797fe1\content
+2026-11-24 18:47:24,234 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 326) WFLYDR0001: Content added at location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\da\562ff429c7b10191fd39a84992a10c4cb72698\content
+2026-11-24 18:47:24,237 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 332) WFLYUT0022: Unregistered web context: '/soap' from server 'default-server'
+2026-11-24 18:47:24,238 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0004: Stopping service jboss.ws.endpoint."ear.ear"."soap.war"."ws.ResearchersWS"
+2026-11-24 18:47:24,238 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 334) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'ear.ear#project2'
+2026-11-24 18:47:24,239 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 334) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'ear.ear#project2'
+2026-11-24 18:47:24,259 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0208: Stopped subdeployment (runtime-name: ejbs.jar) in 23ms
+2026-11-24 18:47:24,262 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: soap.war) in 25ms
+2026-11-24 18:47:24,263 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ear.ear (runtime-name: ear.ear) in 26ms
+2026-11-24 18:47:24,263 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ear.ear" (runtime-name: "ear.ear")
+2026-11-24 18:47:24,346 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) WFLYSRV0207: Starting subdeployment (runtime-name: "ejbs.jar")
+2026-11-24 18:47:24,346 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "soap.war")
+2026-11-24 18:47:24,354 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for project2
+2026-11-24 18:47:24,381 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for ear.ear#project2
+2026-11-24 18:47:24,381 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 334) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ear.ear#project2'
+2026-11-24 18:47:24,381 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 334) HHH000204: Processing PersistenceUnitInfo [name: project2]
+2026-11-24 18:47:24,382 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) WFLYWELD0003: Processing weld deployment ear.ear
+2026-11-24 18:47:24,385 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 334) HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2026-11-24 18:47:24,387 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 334) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@2dca461b']
+	Database driver: undefined/unknown
+	Database version: 18.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-24 18:47:24,387 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 334) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2026-11-24 18:47:24,389 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 334) Envers integration enabled? : true
+2026-11-24 18:47:24,391 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment soap.war
+2026-11-24 18:47:24,391 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment ejbs.jar
+2026-11-24 18:47:24,393 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ManageResearchers' in deployment unit 'subdeployment "ejbs.jar" of deployment "ear.ear"' are as follows:
+
+	java:global/ear/ejbs/ManageResearchers!beans.IManageResearchers
+	java:app/ejbs/ManageResearchers!beans.IManageResearchers
+	java:module/ManageResearchers!beans.IManageResearchers
+	java:jboss/exported/ear/ejbs/ManageResearchers!beans.IManageResearchers
+	ejb:ear/ejbs/ManageResearchers!beans.IManageResearchers
+	java:global/ear/ejbs/ManageResearchers
+	java:app/ejbs/ManageResearchers
+	java:module/ManageResearchers
+
+2026-11-24 18:47:24,411 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for ear.ear#project2
+2026-11-24 18:47:24,420 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 334) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ear.ear#project2'
+2026-11-24 18:47:24,421 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-7) JBWS024061: Adding service endpoint metadata: id=ws.ResearchersWS
+ address=http://localhost:8180/soap/ResearchersWS
+ implementor=ws.ResearchersWS
+ serviceName={http://ws/}ResearchersWSService
+ portName={http://ws/}ResearchersWSPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2026-11-24 18:47:24,434 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-7) Creating Service {http://ws/}ResearchersWSService from class ws.ResearchersWS
+2026-11-24 18:47:24,462 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-7) Setting the server's publish address to be http://localhost:8180/soap/ResearchersWS
+2026-11-24 18:47:24,469 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-7) JBWS024074: WSDL published to: file:/D:/UClibrary/Mestrado/2ANO/1semestre/IS/pratica2/wildfly-38.0.0.Final/standalone/data/wsdl/ear.ear/soap.war/ResearchersWSService.wsdl
+2026-11-24 18:47:24,485 INFO  [org.jboss.as.webservices] (MSC service thread 1-9) WFLYWS0003: Starting service jboss.ws.endpoint."ear.ear"."soap.war"."ws.ResearchersWS"
+2026-11-24 18:47:24,541 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 332) WFLYUT0021: Registered web context: '/soap' for server 'default-server'
+2026-11-24 18:47:24,554 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 326) WFLYSRV0016: Replaced deployment "ear.ear" with deployment "ear.ear"
+2026-11-24 18:47:24,555 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 326) WFLYDR0002: Content removed from location D:\UClibrary\Mestrado\2ANO\1semestre\IS\pratica2\wildfly-38.0.0.Final\standalone\data\content\29\1e920bf247f84bba9348e0c3cbcf196ca71f47\content
+2026-11-24 18:47:43,765 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 18:48:39,915 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id order by r1_0.name
+2026-11-24 18:48:59,028 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 18:50:13,485 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.journal=? and p1_0.id in (select p2_0.id from Publication p2_0 join Publication_researchers r2_0 on p2_0.id=r2_0.Publication_id where r2_0.researchers=?) order by p1_0.publicationDate
+2026-11-24 18:52:06,713 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.institution=? and p1_0.publicationDate between ? and ? order by p1_0.publicationDate
+2026-11-24 18:55:20,768 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.institution=? and p1_0.publicationDate between ? and ? order by p1_0.publicationDate
+2026-11-24 18:56:10,978 INFO  [stdout] (default task-2) Hibernate: select distinct r1_0.id,r1_0.citationsCountYear,r1_0.hostInstitution,i1_0.Researcher_id,i1_0.interests,r1_0.name,p1_0.Researcher_id,p1_0.publications from Researcher r1_0 left join Researcher_interests i1_0 on r1_0.id=i1_0.Researcher_id left join Researcher_publications p1_0 on r1_0.id=p1_0.Researcher_id order by r1_0.name
+2026-11-24 18:56:21,404 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id order by p1_0.publicationDate
+2026-11-24 18:57:05,606 INFO  [stdout] (default task-2) Hibernate: select distinct p1_0.id,p1_0.institution,p1_0.journal,p1_0.publicationDate,r1_0.Publication_id,r1_0.researchers,p1_0.title from Publication p1_0 left join Publication_researchers r1_0 on p1_0.id=r1_0.Publication_id where p1_0.title=? order by p1_0.publicationDate
